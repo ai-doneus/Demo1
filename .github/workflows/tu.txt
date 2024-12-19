@@ -1,0 +1,6 @@
+if different branh is used to deploy test should be run on that branch / all branches
+deployment should only happen for 1 branch test should executed in all branch commits
+ln - 28 - condition on 
+dev environment
+test environment
+production environment

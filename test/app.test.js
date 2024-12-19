@@ -7,5 +7,6 @@ describe("get / ",()=>{
         const res = await req(app).get("/");
         expect(res.statusCode).toBe(200);
         expect(res.body).toEqual({message:"helloworld"});
+        expect(res.body).toBe({info:"hi"})
     })
 })
